@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Merriweather&display=swap");
+
+.book-now {
+  background: url("../assets/smash1.png") rgba(0, 0, 0, 0.404);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 12%;
+  color: white;
+  background-blend-mode: multiply;
+}
+/* image section===============> */
+
+.image-section-content a,
+.image-section-content p {
+  text-decoration: none;
+  display: inline-block;
+}
+.image-section-left {
+  /* margin-left: 10%; */
+  /* position: absolute; */
+  overflow: visible;
+  background-color: #cf1c1c;
+}
+
+.image-section-image {
+  height: 80%;
+  width: 100%;
+  position: relative;
+  left: 5%;
+  top: 10%;
+}
+
+.image-section-content {
+  padding: 10px 60px;
+  /* background-color: black; */
+}
+
+.image-section-content h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.image-section-content p {
+  color: rgb(105, 105, 105);
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.image-section-content h4 {
+  font-family: "Merriweather", serif;
+  color: white;
+  margin-top: 20px;
+}
+/* .imgsection-book-now{
+        border:2px solid black;
+        background-color: black;
+        color:white;
+   font-weight: bold;
+   letter-spacing: 1px;
+    width:150px;
+  
+    }
+    .imgsection-book-now:hover{
+      background-color: white;
+        color:black;
+    } */
+
+.imgsection-book-now {
+  /* background-color: white; */
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 150px;
+}
+.image-section-links {
+  margin-top: 40px;
+}

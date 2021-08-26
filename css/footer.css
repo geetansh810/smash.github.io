@@ -1,0 +1,16 @@
+#bgcolorf
+ {
+   background-color: black;
+ }
+ #bgcolors
+ {
+   background-color: red;
+ }
+ .grid-2{
+    grid-template-columns: repeat(2,1fr);
+    display: flex;
+  }
+
+  .footer-section{
+    display:block;
+  }

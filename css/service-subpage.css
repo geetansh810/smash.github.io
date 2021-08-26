@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+   --red:#be1919;
+   --black:#000;
+   --white:#fff;
+
+
+}
+.modal-content{
+    background-color: rgba(0,0,0);
+     color:white;
+    
+}
+.headings{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.modal-custom-header{
+    height:90px;
+    position: relative;
+    background-color: var(--red);
+}
+.modal-custom-header::after{
+    position:absolute;
+    content: '';
+    content:'';
+    background-color: var(--white);
+    height:30px;
+    transform: skewY(-3deg);
+    bottom:-15px;
+    left:0;
+    right:0;
+   
+}
+
+.boook-now{
+    background-color: var(--red);
+    color:white;
+}
+
+.modal-content{
+    overflow:visible;
+    z-index: 2000;
+}
+ul{
+    list-style-type: none;
+
+}
+
+i{
+    margin-right:5px;
+}
+/* <==================gallery===================> */
+.plan-glimpses-item{
+    display: inline-block;
+    margin:30px;
+    
+}
+.plan-glimpses-item img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.21);
+width:100%;
+}
+.plan-glimpses-item img{
+   width:100%;
+}
+
+.charge-heading-inner-text{
+    display: inline;
+    margin:20px;
+}
+h6{
+    display: inline;
+    margin-left:30%;
+}
+
+.item-div{
+border-radius:2px;
+box-shadow:  0 0 10px  rgba(0,0,0,0.3);
+margin:50px;
+
+
+}

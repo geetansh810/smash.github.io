@@ -1,0 +1,73 @@
+@media screen  and (max-device-width: 560px) {
+
+
+    .divider{
+        display: block !important;
+        margin-top: 30%;
+    }
+
+
+    .myBtn {
+        font-family: Poppins;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+    }
+
+
+    .logo {
+        height: 18%;
+        /* background-color: white; */
+        position: absolute;
+        z-index: 100;
+        left: 0;
+        top: 0;
+        border-radius: 20px;
+    }
+
+
+    .header-content h1 {
+        font-size: 4rem;
+    }
+
+
+    .box-container {
+        width: 100%;
+        /* padding: 5%; */
+    }      
+
+    .box-left {
+        height:220px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .box-right {
+        height:220px;
+        width: 100%;
+    }            
+
+    .contact::after{
+        content: none;
+    }
+    .image-section-image{
+        height: auto;
+    }
+    .image-section-left{
+        height: fit-content;
+    }
+    .faq-title {
+        font-size: 1rem;
+    }
+    .faq-toggle .fa-chevron-down {
+        font-size: 1rem;
+    }
+    .image-section-left{
+        margin-left: 0;
+    }
+    .image-section-image{
+        left: 0;
+    }
+      
+}

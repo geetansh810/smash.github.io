@@ -1,0 +1,89 @@
+
+  .service{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    min-height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cards {
+    position: relative;
+    width: 300px;
+    height: 384px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.05), 2px 4px 32px 0 rgba(0, 0, 0, 0.1), 0 0 64px 0 rgba(0, 0, 0, 0.2);
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 300;
+    border-radius:10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: transform 300ms ease;
+    
+  }
+  .cards .image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 70px;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    transition: bottom 300ms ease;
+  }
+  .cards .content {
+    position: absolute;
+    z-index: 10;
+    padding: 0.5rem;
+    height: 100%;
+    background: white;
+    transform: translateY(314px);
+    transition: transform 300ms ease;
+   
+  }
+  .cards .content .header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+  }
+  .cards .content .meta {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+  .cards .content .description {
+    opacity: 0;
+    transition: opacity 500ms ease 100ms;
+   
+  }
+  .cards:hover {
+    transform: translateY(-16px);
+  }
+  .cards:hover .image {
+    bottom: 280px;
+  }
+  .cards:hover .content {
+    transform: translateY(104px);
+  }
+  .cards:hover .content .description {
+    opacity: 1;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  .image1{
+    background-image: url(https://www.breakaroom.com/static/media/rageCardCover.bbc693fb.jpg);
+  }
+  .image2{
+    background-image: url(https://www.breakaroom.com/static/media/paintCardCover.10318938.jpg);
+  }
+  .image3{
+      background-image: url(https://www.breakaroom.com/static/media/bundle.6d3a5265.jpg      );
+  }
+  
+ 
