@@ -23,6 +23,57 @@ body {
 }
 
 
+.castel-event{
+  background: url(../assets/Banner_Anushka\ \(4\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: 40%;
+}
+
+.castel-event button{
+  font-size: 2rem;
+  margin-top: 5%;
+}
+
+/* ===================================================================================== */
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #121212;
+}
+.marquee__inner {
+  display: flex;
+}
+.marquee__inner h1 {
+  padding-right: 30px;
+  font-size: 2rem;
+  white-space: nowrap;
+  animation: kf-marquee 30s linear infinite;
+  text-shadow: -1px -1px 0 #ccc, 1px -1px 0 #ccc, -1px 1px 0 #ccc,
+    1px 1px 0 #ccc;
+  color: #141313;
+  transition: color 0.3s linear;
+  transition: font-size 0.5s linear;
+}
+.marquee__inner h1:hover {
+  color: #fcfcfc;
+}
+@keyframes kf-marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/* ===================================================================================== */
+
+
+
 
 /* .content {
 } */
