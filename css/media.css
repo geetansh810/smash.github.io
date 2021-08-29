@@ -1,6 +1,11 @@
 @media screen  and (max-device-width: 560px) {
 
 
+    .castel-event button {
+    font-size: 2rem;
+    margin-top: 30%;
+}
+    
     .divider{
         display: block !important;
         margin-top: 30%;
